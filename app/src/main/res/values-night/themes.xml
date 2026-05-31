@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.TerraMark" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/terra_green</item>
+        <item name="colorPrimaryVariant">@color/terra_light_green</item>
+        <item name="colorOnPrimary">@color/terra_white</item>
+        <item name="android:windowBackground">@color/terra_background</item>
+    </style>
+</resources>

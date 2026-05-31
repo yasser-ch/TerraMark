@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/terra_background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TerraMark"
+        android:textColor="@color/terra_green"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="@color/terra_card"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌿 Position GPS"
+                android:textColor="@color/terra_green"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tv_latitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latitude : —"
+                android:textColor="@color/terra_dark"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tv_longitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Longitude : —"
+                android:textColor="@color/terra_dark"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_gps_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/waiting_gps"
+        android:textColor="@color/terra_grey"
+        android:textSize="13sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_open_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_open_map"
+        android:backgroundTint="@color/terra_green"
+        android:textColor="@color/terra_white"
+        android:textStyle="bold"
+        android:padding="14dp" />
+
+</LinearLayout>

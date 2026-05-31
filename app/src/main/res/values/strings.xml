@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TerraMark</string>
+    <string name="btn_open_map">Ouvrir la carte</string>
+    <string name="waiting_gps">En attente du signal GPS...</string>
+    <string name="new_location">Latitude = %1$s, Longitude = %2$s, Altitude = %3$s, Précision = %4$s m</string>
+    <string name="permission_denied">Permission de localisation refusée</string>
+    <string name="position_sent">Position envoyée ✓</string>
+    <string name="network_error">Erreur réseau</string>
+</resources>

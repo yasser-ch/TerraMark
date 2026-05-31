@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="terra_green">#2E7D32</color>
+    <color name="terra_light_green">#81C784</color>
+    <color name="terra_white">#FFFFFF</color>
+    <color name="terra_background">#F9FBF9</color>
+    <color name="terra_dark">#1B1B1B</color>
+    <color name="terra_grey">#757575</color>
+    <color name="terra_card">#FFFFFF</color>
+</resources>
